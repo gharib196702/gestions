@@ -11,7 +11,7 @@ const App = () => {
   },[])
   return (
     <>
-      <p>bienvenue mes amis a cette formation react</p>
+      <p>listes des programmeurs </p>
       {
         users && users.map(user=>(
           <p key={user.id}>{user.nom} {user.age}</p>
