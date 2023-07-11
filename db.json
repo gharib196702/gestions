@@ -1,0 +1,8 @@
+{
+  "users":[
+    {"id":1,"nom":"jouali","age":45},
+    {"id":2,"nom":"baba","age":34},
+    {"id":3,"nom":"montassir","age":23},
+    {"id":4,"nom":"tikki","age":18}
+  ]
+}
