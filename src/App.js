@@ -1,15 +1,15 @@
 import {BrowserRouter, Link, Route, Routes} from "react-router-dom";
 import Home from "./composants/Home";
 import Products from "./composants/Products";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 const App = () => {
   const [currentRoute, setCurrentRoute] = useState()
-  const handleClick = () => {
-    const path = window.location.path
-    console.log(path)
+  useEffect(()=>{
+    const path = window.location.pathname
+    console.log(path.slice(1,path.length))
 
-  }
+  })
   return (
     <>
       <BrowserRouter>
